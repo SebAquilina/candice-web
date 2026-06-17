@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment / secrets — NEVER commit your Stripe keys
+.env
+.env.*
+!.env.example
+
+# Build / deploy
+.netlify/
+.vercel/
+dist/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/

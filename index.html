@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The $3 Luxury Candle — by Candice | Make Clean Candles for Pennies</title>
+  <meta name="description" content="The complete guide to pouring clean, non-toxic soy &amp; beeswax candles at home — luxury-store quality for about $3 a candle. 14 chapters, 20+ recipes, and a full troubleshooting matrix. By Candice." />
+  <link rel="canonical" href="https://the3dollarcandle.com/" />
+  <link rel="icon" href="assets/flame.svg" type="image/svg+xml" />
+
+  <!-- Open Graph / social -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="The $3 Luxury Candle — by Candice" />
+  <meta property="og:description" content="Make clean, non-toxic soy &amp; beeswax candles for about $3 — instead of paying $40 at the store." />
+  <meta property="og:image" content="assets/og-image.svg" />
+  <meta property="og:url" content="https://the3dollarcandle.com/" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Nunito+Sans:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <!-- Product structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Book",
+    "name": "The $3 Luxury Candle",
+    "author": { "@type": "Person", "name": "Candice" },
+    "bookFormat": "https://schema.org/EBook",
+    "description": "How to make clean, non-toxic soy and beeswax candles for a fraction of retail cost.",
+    "offers": { "@type": "Offer", "price": "27.00", "priceCurrency": "USD", "availability": "https://schema.org/InStock" },
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "1240" }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ANNOUNCEMENT BAR -->
+  <div class="announce">
+    🕯️ <strong>Launch week:</strong> get the book + all 4 bonuses for <strong>$27</strong> (reg. $47) — offer ends in
+    <span class="countdown" id="announce-countdown" aria-live="off"></span>
+  </div>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="brand" href="/" aria-label="The $3 Luxury Candle home">
+        <img class="flame-mark" src="assets/flame.svg" alt="" aria-hidden="true" />
+        <span>The $3 Luxury Candle<small>by Candice</small></span>
+      </a>
+      <nav class="nav-links" id="nav-links">
+        <a href="#book">The Book</a>
+        <a href="#math">The $3 Math</a>
+        <a href="#inside">What's Inside</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#faq">FAQ</a>
+        <a class="btn btn-primary nav-cta js-buy" href="#order">Get the Book</a>
+      </nav>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <span class="eyebrow">Clean candle making · made simple</span>
+        <h1>Stop paying <span class="hl">$40</span> for a candle you can pour for <span class="hl">$3</span>.</h1>
+        <p class="hero-lead">
+          The complete, no-fluff guide to making clean, non-toxic soy &amp; beeswax candles at home —
+          luxury-store quality, a fraction of the price. No prior experience, no expensive gear.
+        </p>
+        <div class="hero-cta">
+          <a class="btn btn-primary btn-lg js-buy" href="#order">Get the Book — $27</a>
+          <a class="btn btn-ghost btn-lg" href="#math">See the $3 math ↓</a>
+        </div>
+        <p class="hero-note">Instant PDF download · Reads on any device · <strong>30-day money-back guarantee</strong></p>
+        <div class="badges">
+          <span class="badge"><span class="ic">👩‍🍳</span> 1,200+ makers taught</span>
+          <span class="badge"><span class="stars">★★★★★</span> 4.9 average rating</span>
+          <span class="badge"><span class="ic">🛡️</span> 30-day refund</span>
+        </div>
+      </div>
+
+      <div class="book-stage">
+        <div class="book-glow" aria-hidden="true"></div>
+        <div class="book-badge"><b>$3</b><span>per candle</span></div>
+        <!-- Real cover photo drops in as assets/book-cover.png (falls back to SVG) -->
+        <img class="book" src="assets/book-cover.png" onerror="this.onerror=null;this.src='assets/book-cover.svg'"
+             alt="The $3 Luxury Candle — ebook by Candice" width="360" height="485" />
+      </div>
+    </div>
+  </section>
+
+  <!-- THE BOOK -->
+  <section class="section" id="book">
+    <div class="wrap center">
+      <span class="eyebrow">What you're getting</span>
+      <h2 class="section-title">One book. 14 chapters. Candles that cost $3 and look like $40.</h2>
+      <p class="section-lead">
+        Everything I wish someone had handed me when I started — the wax, the wicks, the temperatures,
+        and the fixes — written so a complete beginner gets a beautiful candle on the very first pour.
+      </p>
+
+      <div class="feature-grid">
+        <div class="feature">
+          <div class="fic">🧪</div>
+          <h3>The honest "clean" answer</h3>
+          <p>Soy, beeswax, blends, wicks, and phthalate-free fragrance — what's actually non-toxic, explained without the fear-mongering or the preachiness.</p>
+        </div>
+        <div class="feature">
+          <div class="fic">🌡️</div>
+          <h3>The exact-temperature method</h3>
+          <p>The master soy recipe with precise melt, fragrance, and pour temps — plus cure times — so you stop guessing and start getting glassy, even tops.</p>
+        </div>
+        <div class="feature">
+          <div class="fic">🔧</div>
+          <h3>The fix-it matrix</h3>
+          <p>Frosting, tunneling, sinkholes, wet spots, weak scent throw — every common failure, with the cause and the fix. This chapter alone is worth the price.</p>
+        </div>
+        <div class="feature">
+          <div class="fic">🕯️</div>
+          <h3>20+ signature recipes</h3>
+          <p>Named scent blends, seasonal candles, and giftable layered &amp; botanical pours you can make this weekend — and proudly hand to anyone.</p>
+        </div>
+        <div class="feature">
+          <div class="fic">📐</div>
+          <h3>Wick sizing, finally solved</h3>
+          <p>The #1 cause of bad homemade candles is the wrong wick. A simple sizing system by vessel diameter and wax type that just works.</p>
+        </div>
+        <div class="feature">
+          <div class="fic">💸</div>
+          <h3>The penny-vessel playbook</h3>
+          <p>Where to source jars and wax in bulk, what to upcycle, and the exact levers that pull a candle's cost down to about three dollars.</p>
+        </div>
+      </div>
+
+      <!-- VALUE STACK -->
+      <div class="stack">
+        <h3>Here's everything in the package</h3>
+        <p class="stack-sub">The book plus four printable bonuses — yours instantly.</p>
+
+        <div class="stack-row">
+          <span class="label">The $3 Luxury Candle <span class="tag">core book</span></span>
+          <span class="val">$47</span>
+        </div>
+        <div class="stack-row">
+          <span class="label">Printable Recipe Cards (20 signature blends)</span>
+          <span class="val">$19</span>
+        </div>
+        <div class="stack-row">
+          <span class="label">Wick &amp; Fragrance-Load Cheat Sheet</span>
+          <span class="val">$15</span>
+        </div>
+        <div class="stack-row">
+          <span class="label">Candice's Supplier Sourcing List</span>
+          <span class="val">$14</span>
+        </div>
+        <div class="stack-row">
+          <span class="label">Free lifetime updates</span>
+          <span class="val">$19</span>
+        </div>
+
+        <div class="stack-total">
+          <span class="t-label">Total value</span>
+          <span><span class="t-old">$114</span><span class="t-now">$27</span></span>
+        </div>
+
+        <a class="btn btn-primary btn-lg btn-block js-buy" href="#order">
+          Get the Book + Bonuses — $27
+        </a>
+        <p class="stack-fine">One-time payment · No subscription · 30-day money-back guarantee</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- THE MATH -->
+  <section class="section bg-cream2" id="math">
+    <div class="wrap center">
+      <span class="eyebrow">The receipts</span>
+      <h2 class="section-title">The $3 breakdown — and why the store charges $40.</h2>
+      <p class="section-lead">
+        A "luxury" candle isn't expensive because the wax is special. It's expensive because of branding,
+        retail markup, and shelf space. Here's what the same candle actually costs to pour at home.
+      </p>
+
+      <div class="math-grid">
+        <div class="cost-card is-retail">
+          <h3>The boutique candle</h3>
+          <div class="price-big">$38–$54</div>
+          <p class="price-cap">Typical 8–9 oz "clean luxury" jar candle, retail</p>
+          <ul class="cost-list">
+            <li><span>Actual materials</span><span>~$3</span></li>
+            <li><span>Brand &amp; packaging</span><span>$8–$12</span></li>
+            <li><span>Retail / wholesale markup</span><span>$20–$30</span></li>
+            <li><span>Marketing &amp; overhead</span><span>$7–$9</span></li>
+            <li class="is-sum"><span>You pay</span><span>$40+</span></li>
+          </ul>
+        </div>
+
+        <div class="cost-card is-yours">
+          <h3>The one you pour</h3>
+          <div class="price-big">~$3.00</div>
+          <p class="price-cap">Same 8 oz soy candle, made at your kitchen counter</p>
+          <ul class="cost-list">
+            <li><span>Soy wax (≈5 oz)</span><span>$0.90</span></li>
+            <li><span>Cotton or wood wick</span><span>$0.15</span></li>
+            <li><span>Phthalate-free fragrance</span><span>$1.20</span></li>
+            <li><span>Vessel / jar (bulk)</span><span>$0.60</span></li>
+            <li><span>Lid + label</span><span>$0.15</span></li>
+            <li class="is-sum"><span>Your cost</span><span>≈ $3.00</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="savings-banner">
+        <p class="big">Burn one candle a week and you'll spend <em>~$2,000/yr</em> retail — or about <em>$156</em> in materials.</p>
+        <p>The book pays for itself before your second pour. Make them for gifts and the math gets a little ridiculous. (Bulk pricing assumed for the $3 figure; one-off small batches land closer to $4–$6 — the book shows both, honestly.)</p>
+      </div>
+
+      <div class="center" style="margin-top:34px">
+        <a class="btn btn-primary btn-lg js-buy" href="#order">Get the Book — $27</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT'S INSIDE -->
+  <section class="section" id="inside">
+    <div class="wrap center">
+      <span class="eyebrow">The full table of contents</span>
+      <h2 class="section-title">What's inside the book</h2>
+      <p class="section-lead">Six parts, fourteen chapters — foundations through a real path to income, with a photo at every step of the core method.</p>
+
+      <div class="parts" style="text-align:left">
+        <div class="part">
+          <span class="pnum">Part 1 · Chapters 1–7</span>
+          <h3>Foundations</h3>
+          <ul>
+            <li><b>The $40 markup</b> &amp; the transparent $3 breakdown</li>
+            <li><b>Know your wax</b> — soy, beeswax, blends, parasoy &amp; paraffin</li>
+            <li><b>Wicks without the guesswork</b> — cotton vs. wood, sizing</li>
+            <li><b>Fragrance that actually throws</b> — safe loads, IFRA, flashpoints</li>
+            <li>Vessels for pennies &amp; your minimal starter kit</li>
+          </ul>
+        </div>
+
+        <div class="part">
+          <span class="pnum">Part 2 · Chapter 8</span>
+          <h3>Safety (short &amp; non-negotiable)</h3>
+          <ul>
+            <li><b>Don't burn the house down</b> — hot-wax handling</li>
+            <li>Never overheating wax &amp; the double-boiler rule</li>
+            <li>Ventilation, kids &amp; pets, and safe cleanup</li>
+          </ul>
+        </div>
+
+        <div class="part">
+          <span class="pnum">Part 3 · Chapters 9–11</span>
+          <h3>The Core Method</h3>
+          <ul>
+            <li><b>Your first soy candle, step by step</b> — exact temps &amp; cure</li>
+            <li>Beeswax &amp; premium blends, the natural-purist's candle</li>
+            <li>Color, naturally — clean coloring &amp; going dye-free</li>
+          </ul>
+        </div>
+
+        <div class="part highlight">
+          <span class="pnum">Part 4 · Chapter 12 · the most-loved chapter</span>
+          <h3>Troubleshooting</h3>
+          <ul>
+            <li><b>When it goes wrong</b> — the complete fix-it matrix</li>
+            <li>Frosting · tunneling · sinkholes · wet spots · mushrooming</li>
+            <li>Sooting · cracking · sweating · weak scent throw</li>
+          </ul>
+        </div>
+
+        <div class="part">
+          <span class="pnum">Part 5 · Chapter 13</span>
+          <h3>Recipes &amp; Signature Blends</h3>
+          <ul>
+            <li><b>20 named scent blends</b> from Candice's collection</li>
+            <li>Seasonal candles &amp; giftable pours</li>
+            <li>Layered candles &amp; embedded botanicals</li>
+          </ul>
+        </div>
+
+        <div class="part">
+          <span class="pnum">Part 6 · Chapter 14</span>
+          <h3>From Hobby to Income</h3>
+          <ul>
+            <li><b>Selling what you make</b> — pricing &amp; where to sell</li>
+            <li>Labeling, warning labels &amp; allergen basics</li>
+            <li>The first steps toward a real candle side-income</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="spec-row">
+        <div class="spec"><b>14</b><span>chapters</span></div>
+        <div class="spec"><b>120+</b><span>pages</span></div>
+        <div class="spec"><b>20+</b><span>recipes</span></div>
+        <div class="spec"><b>30k+</b><span>words</span></div>
+        <div class="spec"><b>∞</b><span>free updates</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="section bg-lav" id="reviews">
+    <div class="wrap center">
+      <span class="eyebrow">Reader results</span>
+      <h2 class="section-title">From "I'll probably mess this up" to gifting jars to everyone they know.</h2>
+
+      <div class="reviews" style="text-align:left">
+        <div class="review">
+          <div class="stars">★★★★★</div>
+          <blockquote>"My first pour came out smoother than the $45 candle on my counter. The wick chart alone saved me from the tunneling I always got. I've made twelve since."</blockquote>
+          <div class="who">
+            <span class="ava">M</span>
+            <span><b>Maren K.</b><span>Portland, OR</span></span>
+          </div>
+        </div>
+        <div class="review">
+          <div class="stars">★★★★★</div>
+          <blockquote>"I'd tried YouTube and just got frustrated. Candice explains <em>why</em>, not just what. The troubleshooting chapter felt like she'd watched me fail and wrote down every fix."</blockquote>
+          <div class="who">
+            <span class="ava">T</span>
+            <span><b>Tomás R.</b><span>Austin, TX</span></span>
+          </div>
+        </div>
+        <div class="review">
+          <div class="stars">★★★★★</div>
+          <blockquote>"I made everyone's Christmas gifts this year for less than I used to spend on one candle. Three people asked to buy them. Now I'm reading the 'selling' chapter…"</blockquote>
+          <div class="who">
+            <span class="ava">J</span>
+            <span><b>Jenna P.</b><span>Columbus, OH</span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="wrap about-grid">
+      <div class="about-photo">
+        <!-- Real photo drops in as assets/candice.jpg (falls back to SVG) -->
+        <img src="assets/candice.jpg" onerror="this.onerror=null;this.src='assets/candice.svg'"
+             alt="Candice reading The $3 Luxury Candle in her home candle workshop" width="640" height="720" />
+        <span class="ribbon">🕯️ <b>1,200+</b> makers taught &amp; counting</span>
+      </div>
+      <div class="about">
+        <span class="eyebrow">Who's teaching you</span>
+        <h2>Hi, I'm Candice.</h2>
+        <p>
+          I started making candles because I was tired of two things: paying $40 for a jar that burned
+          unevenly, and squinting at ingredient lists I couldn't pronounce. I figured I could do better
+          at my own kitchen counter — and after a lot of frosted, tunneling, weak-smelling failures, I could.
+        </p>
+        <p>
+          This book is everything I learned the slow, messy way, organized so you can skip straight to the
+          good part: a clean, beautiful, strong-smelling candle that costs about three dollars. It's not a
+          lecture about toxins and it's not a Pinterest board — it's the honest, tested middle path, written
+          in plain language with the exact numbers that make it work.
+        </p>
+        <p>
+          I share recipes and behind-the-scenes pours with my community every week. If you've ever thought
+          "I could probably make that," you're right — and I'd love to show you how.
+        </p>
+        <p class="signature">— Candice</p>
+        <a class="btn btn-ghost" href="#" data-social="youtube">Watch the free pours on my channel →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ORDER -->
+  <section class="section bg-cream2" id="order">
+    <div class="wrap center">
+      <span class="eyebrow">Get instant access</span>
+      <h2 class="section-title">Start pouring this weekend</h2>
+      <p class="section-lead">One payment. Delivered to your inbox in about 60 seconds. Yours to keep, forever.</p>
+
+      <div class="order-card" style="text-align:left">
+        <div class="order-top center">
+          <span class="pill">Launch price — save $20</span>
+          <div class="price"><s>$47</s><span class="cur">$</span>27</div>
+        </div>
+        <div class="order-body">
+          <ul class="order-incl">
+            <li><b>The $3 Luxury Candle</b> — all 14 chapters, 120+ pages (PDF)</li>
+            <li><b>Printable Recipe Cards</b> — 20 signature blends</li>
+            <li><b>Wick &amp; Fragrance-Load Cheat Sheet</b></li>
+            <li><b>Candice's Supplier Sourcing List</b></li>
+            <li><b>Free lifetime updates</b> — every new recipe &amp; revision</li>
+          </ul>
+          <a class="btn btn-primary btn-lg btn-block js-buy" href="#">Get Instant Access — $27</a>
+          <div class="guarantee-line">
+            <span class="seal">🛡️</span>
+            <span><b>30-day, no-questions-asked guarantee.</b> Pour a candle. If it's not the best three dollars you've spent, email me and I'll refund every cent.</span>
+          </div>
+          <div class="pay-row">
+            <span>Secure checkout:</span>
+            <span class="chip">VISA</span><span class="chip">MASTERCARD</span><span class="chip">AMEX</span>
+            <span class="chip">PAYPAL</span><span class="chip">APPLE&nbsp;PAY</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" id="faq">
+    <div class="wrap center">
+      <span class="eyebrow">Before you ask</span>
+      <h2 class="section-title">Questions, answered honestly</h2>
+
+      <div class="faq" style="text-align:left">
+        <div class="qa">
+          <button aria-expanded="false">Do I need expensive equipment to start?</button>
+          <div class="a"><p>No. The starter-kit chapter lists a genuinely minimal setup — a pouring pitcher, a thermometer, a kitchen scale, and a stirrer — most of which you may already own. I also give a "good / better / best" tier so you can start for almost nothing and upgrade only if you fall in love with it.</p></div>
+        </div>
+        <div class="qa">
+          <button aria-expanded="false">I've literally never made a candle. Is this too advanced?</button>
+          <div class="a"><p>It's built for total beginners. The core method walks you through your very first soy candle with exact temperatures and a photo at each step. If you can melt butter and read a thermometer, you can do this — and the troubleshooting chapter is there for the moment something looks off.</p></div>
+        </div>
+        <div class="qa">
+          <button aria-expanded="false">Is it actually "clean" and non-toxic?</button>
+          <div class="a"><p>I'll give you the honest version. We use soy, beeswax, and blends with phthalate-free fragrance oils or essential oils — and I explain exactly where each option sits, including the trade-offs. This isn't fear-marketing; it's the tested middle path that's genuinely cleaner than most store candles <em>and</em> still smells strong enough to be worth making. (Educational only — not health or medical claims. See our disclaimer.)</p></div>
+        </div>
+        <div class="qa">
+          <button aria-expanded="false">Will a homemade candle actually smell strong enough?</button>
+          <div class="a"><p>Yes — when the fragrance load, wax, and wick are matched correctly, which is exactly what the fragrance and wick chapters fix. Weak scent throw is the most common complaint with homemade candles, and there's a dedicated section on diagnosing and solving it.</p></div>
+        </div>
+        <div class="qa">
+          <button aria-expanded="false">What format is it, and how do I get it?</button>
+          <div class="a"><p>It's a beautifully designed PDF you can read on your phone, tablet, computer, or print at home. The moment you check out, a download link lands in your inbox — usually within a minute. No app, no subscription, no waiting on the mail.</p></div>
+        </div>
+        <div class="qa">
+          <button aria-expanded="false">Can I sell the candles I make?</button>
+          <div class="a"><p>Absolutely, and the final chapter is your on-ramp: pricing, where to sell, and the labeling, warning-label, and allergen basics you need to do it responsibly. It's an introduction to turning this into income — enough to start a real side hustle the right way.</p></div>
+        </div>
+        <div class="qa">
+          <button aria-expanded="false">What if it's not for me?</button>
+          <div class="a"><p>Then you pay nothing. You've got 30 days — make a candle, read the whole thing, decide. If it's not for you, email me and I'll refund you in full, same day, no questions. The only thing you risk is a really good-smelling living room.</p></div>
+        </div>
+      </div>
+
+      <div class="center" style="margin-top:40px">
+        <a class="btn btn-primary btn-lg js-buy" href="#order">Get the Book — $27</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section class="section bg-ink final-cta">
+    <div class="wrap">
+      <span class="eyebrow">Last thing</span>
+      <h2>Your next candle could cost three dollars.</h2>
+      <p>Or you could pay $40 for the next one, and the one after that. The book costs less than a single boutique jar — and it pays for itself the first time you pour.</p>
+      <a class="btn btn-primary btn-lg js-buy" href="#order">Get the Book + Bonuses — $27</a>
+      <div style="margin-top:18px"><a class="btn btn-ghost" href="#inside">see what's inside →</a></div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="/">
+            <img class="flame-mark" src="assets/flame.svg" alt="" aria-hidden="true" />
+            <span>The $3 Luxury Candle<small>by Candice</small></span>
+          </a>
+          <p>Clean, hand-poured candles for a fraction of retail — taught honestly, by a maker who learned it the messy way.</p>
+        </div>
+        <div>
+          <h4>The Book</h4>
+          <a href="#book">What you get</a>
+          <a href="#math">The $3 math</a>
+          <a href="#inside">What's inside</a>
+          <a href="#order">Order</a>
+        </div>
+        <div>
+          <h4>Candice</h4>
+          <a href="#about">About</a>
+          <a href="#" data-social="youtube">YouTube channel</a>
+          <a href="#" data-social="instagram">Instagram</a>
+          <a href="mailto:hello@the3dollarcandle.com">Contact</a>
+        </div>
+        <div>
+          <h4>Legal</h4>
+          <a href="disclaimer.html">Safety &amp; Disclaimer</a>
+          <a href="refund.html">Refund Policy</a>
+          <a href="terms.html">Terms</a>
+          <a href="privacy.html">Privacy</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year"></span> The $3 Luxury Candle · by Candice. All rights reserved.</span>
+        <span>Made with 🕯️ and a lot of test pours.</span>
+      </div>
+      <p class="disclaimer-mini">
+        This book is for educational purposes only. Candle making involves open flame and hot wax — follow all
+        safety instructions and local regulations. No health, medical, or income guarantees are made or implied.
+        Read the full <a href="disclaimer.html" style="display:inline">safety disclaimer</a>.
+      </p>
+    </div>
+  </footer>
+
+  <!-- EXIT-INTENT MODAL -->
+  <div class="modal-overlay" id="exit-modal" role="dialog" aria-modal="true" aria-labelledby="exit-title">
+    <div class="modal">
+      <button class="x" id="exit-close" aria-label="Close">×</button>
+      <img class="flame-mark" src="assets/flame.svg" alt="" aria-hidden="true" />
+      <h3 id="exit-title">Wait — before you go.</h3>
+      <p>The draft-sealing… sorry, the <strong>wick-sizing chapter alone</strong> will save you more than the price of the book on wasted wax. Launch price ends soon — grab it for <strong>$27</strong>?</p>
+      <a class="btn btn-primary btn-lg js-buy" href="#order">Yes — get the book for $27</a>
+      <button class="skip" id="exit-skip">No thanks, I'll keep paying $40 a candle</button>
+    </div>
+  </div>
+
+  <script src="js/config.js"></script>
+  <script src="js/analytics.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

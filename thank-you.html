@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>You're in! — The $3 Luxury Candle</title>
+  <meta name="description" content="Thank you for your order. Download The $3 Luxury Candle and your bonuses." />
+  <meta name="robots" content="noindex" />
+  <link rel="icon" href="assets/flame.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700&family=Nunito+Sans:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="brand" href="/">
+        <img class="flame-mark" src="assets/flame.svg" alt="" aria-hidden="true" />
+        <span>The $3 Luxury Candle<small>by Candice</small></span>
+      </a>
+    </div>
+  </header>
+
+  <main class="ty">
+    <div class="check">✓</div>
+    <h1>You're in. Time to pour.</h1>
+    <p>Thank you — your order is confirmed. Your download is below, and a copy of every link is on its way to your email right now.</p>
+
+    <div class="dl-card">
+      <h3 style="font-size:1.4rem;margin-bottom:6px">Your downloads</h3>
+      <p style="font-size:.98rem;color:var(--ink-faint)">Tap to download. These links are yours to keep.</p>
+      <!-- These point at the SAMPLE files in /downloads so the flow is testable now.
+           Before launch: replace those files with the real ebook, OR (recommended)
+           let Stripe/your store deliver the real file via gated download and point
+           these at that link. See README "Delivering the PDF". -->
+      <a class="btn btn-primary btn-lg btn-block" id="dl-book"
+         href="downloads/the-3-dollar-luxury-candle.pdf" download>📖 Download the Book (PDF)</a>
+      <div style="margin-top:12px"></div>
+      <a class="btn btn-ghost btn-block" id="dl-bonuses"
+         href="downloads/bonuses.zip" download>🎁 Download the 4 bonuses (.zip)</a>
+    </div>
+
+    <div class="callout" style="text-align:left;max-width:520px;margin:0 auto">
+      <strong>Didn't get the email?</strong> Check spam/promotions, then email
+      <a href="mailto:hello@the3dollarcandle.com" style="display:inline">hello@the3dollarcandle.com</a> and I'll
+      sort you out personally.
+    </div>
+
+    <p style="margin-top:30px">First time? Start with <strong>Chapter 9 — Your First Soy Candle</strong>, and keep the troubleshooting chapter open in another tab. 🕯️</p>
+    <p style="margin-top:18px"><a href="/">← Back to home</a></p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-bottom">
+        <span>© <span id="year"></span> The $3 Luxury Candle · by Candice.</span>
+        <span><a href="disclaimer.html">Disclaimer</a> · <a href="refund.html">Refund</a> · <a href="terms.html">Terms</a> · <a href="privacy.html">Privacy</a></span>
+      </div>
+    </div>
+  </footer>
+  <script src="js/config.js"></script>
+  <script src="js/analytics.js"></script>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+    // track download intent
+    ["dl-book", "dl-bonuses"].forEach(function (id) {
+      var el = document.getElementById(id);
+      if (el) el.addEventListener("click", function () {
+        if (window.track) window.track("download", { file: id });
+      });
+    });
+  </script>
+</body>
+</html>

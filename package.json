@@ -1,0 +1,13 @@
+{
+  "name": "the-3-dollar-luxury-candle",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Landing/sales site for The $3 Luxury Candle ebook by Candice. Static HTML/CSS/JS with optional Stripe serverless checkout.",
+  "scripts": {
+    "dev": "python3 -m http.server 8080",
+    "sample-pdf": "python3 tools/make_sample_pdf.py"
+  },
+  "dependencies": {
+    "stripe": "^16.0.0"
+  }
+}
