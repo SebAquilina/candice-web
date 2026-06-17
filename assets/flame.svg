@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Candle flame mark">
+  <defs>
+    <linearGradient id="f" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FBE3A1"/>
+      <stop offset="0.5" stop-color="#F0A93C"/>
+      <stop offset="1" stop-color="#D97A1E"/>
+    </linearGradient>
+    <linearGradient id="c" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFDF6"/>
+      <stop offset="1" stop-color="#E7D4AC"/>
+    </linearGradient>
+  </defs>
+  <rect x="20" y="34" width="24" height="24" rx="4" fill="url(#c)" stroke="#C99A30" stroke-width="2"/>
+  <path d="M32 6 q14 16 0 30 q-14 -14 0 -30 Z" fill="url(#f)"/>
+  <path d="M32 16 q6 8 0 16 q-6 -8 0 -16 Z" fill="#FCEFC4" opacity=".85"/>
+</svg>

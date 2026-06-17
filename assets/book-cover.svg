@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 700" role="img" aria-label="The $3 Luxury Candle book cover">
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FCF7EC"/>
+      <stop offset="1" stop-color="#F3E8D2"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="64%" r="42%">
+      <stop offset="0" stop-color="#F4D8A0" stop-opacity=".75"/>
+      <stop offset="1" stop-color="#F4D8A0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="flame" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FBE3A1"/>
+      <stop offset="0.5" stop-color="#F0A93C"/>
+      <stop offset="1" stop-color="#D97A1E"/>
+    </linearGradient>
+    <linearGradient id="wax" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFDF6"/>
+      <stop offset="1" stop-color="#EAD9B6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- cover -->
+  <rect x="6" y="6" width="508" height="688" rx="10" fill="url(#paper)" stroke="#E3D2B0" stroke-width="2"/>
+  <!-- aged corners -->
+  <path d="M6 60 Q40 30 90 16 Q40 16 16 40 Z" fill="#C9A86A" opacity=".35"/>
+  <path d="M514 60 Q480 30 430 16 Q480 16 504 40 Z" fill="#C9A86A" opacity=".35"/>
+  <path d="M6 640 Q40 670 90 684 Q40 684 16 660 Z" fill="#C9A86A" opacity=".35"/>
+  <path d="M514 640 Q480 670 430 684 Q480 684 504 660 Z" fill="#C9A86A" opacity=".35"/>
+
+  <!-- title -->
+  <text x="260" y="120" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="50" font-weight="700" fill="#3A2C1A" letter-spacing="1">THE $3 LUXURY</text>
+  <text x="260" y="178" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="50" font-weight="700" fill="#3A2C1A" letter-spacing="2">CANDLE</text>
+
+  <!-- subtitle -->
+  <text x="260" y="232" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#5A4630">How to Make Clean, Non-Toxic</text>
+  <text x="260" y="260" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#5A4630">Soy and Beeswax Candles for</text>
+  <text x="260" y="288" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#5A4630">a Fraction of Retail Cost.</text>
+
+  <!-- illustration glow -->
+  <circle cx="260" cy="470" r="150" fill="url(#halo)"/>
+
+  <!-- candles -->
+  <g>
+    <!-- tall glass back -->
+    <rect x="232" y="370" width="84" height="150" rx="8" fill="url(#wax)" stroke="#D9C49A" stroke-width="2"/>
+    <!-- left pillar -->
+    <rect x="168" y="408" width="62" height="112" rx="6" fill="url(#wax)" stroke="#D9C49A" stroke-width="2"/>
+    <!-- right glass -->
+    <rect x="320" y="430" width="60" height="90" rx="6" fill="url(#wax)" stroke="#D9C49A" stroke-width="2"/>
+    <!-- front jar -->
+    <rect x="226" y="452" width="84" height="80" rx="8" fill="url(#wax)" stroke="#D9C49A" stroke-width="2"/>
+
+    <!-- flames -->
+    <g>
+      <path d="M274 350 q12 18 0 34 q-12 -16 0 -34 Z" fill="url(#flame)"/>
+      <path d="M199 388 q10 15 0 28 q-10 -14 0 -28 Z" fill="url(#flame)"/>
+      <path d="M350 410 q9 14 0 26 q-9 -13 0 -26 Z" fill="url(#flame)"/>
+      <path d="M268 432 q11 16 0 30 q-11 -15 0 -30 Z" fill="url(#flame)"/>
+    </g>
+
+    <!-- beeswax cubes -->
+    <rect x="150" y="486" width="40" height="34" rx="4" fill="#E7B84F" stroke="#C99A30" stroke-width="2"/>
+    <rect x="158" y="466" width="36" height="26" rx="4" fill="#EFC766" stroke="#C99A30" stroke-width="2"/>
+
+    <!-- lavender sprig -->
+    <g stroke="#7E6CB0" stroke-width="3" fill="none" stroke-linecap="round">
+      <path d="M372 520 q26 -22 46 -56"/>
+      <path d="M380 512 q22 -20 40 -50"/>
+    </g>
+    <g fill="#8B79BE">
+      <circle cx="414" cy="470" r="4"/><circle cx="408" cy="480" r="4"/><circle cx="418" cy="480" r="4"/>
+      <circle cx="402" cy="492" r="4"/><circle cx="412" cy="492" r="4"/><circle cx="396" cy="504" r="4"/>
+    </g>
+  </g>
+
+  <!-- author -->
+  <text x="260" y="636" text-anchor="middle" font-family="Georgia, serif" font-size="30" fill="#3A2C1A">By Candice.</text>
+</svg>

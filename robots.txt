@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /thank-you.html
+
+Sitemap: https://the3dollarcandle.com/sitemap.xml
